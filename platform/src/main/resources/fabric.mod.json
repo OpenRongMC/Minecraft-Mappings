@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "rongmc_mapping",
+  "version": "4.0.5-port.1+26.3",
+  "name": "RongMC Transport Compatibility",
+  "description": "Shared Minecraft 26.3 platform adapters for MTR and its addons.",
+  "license": "GPL-3.0",
+  "environment": "*",
+  "accessWidener": "rongmc-mapping.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

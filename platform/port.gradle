@@ -1,0 +1,8 @@
+// Minecraft 26.3 configuration is shared by the root build.
+sourceSets.main.java.exclude('org/mtr/mapping/mixin/**')
+loom { accessWidenerPath = file('src/main/resources/rongmc-mapping.accesswidener') }
+sourceSets.main.java.exclude('org/mtr/mapping/render/shader/ShaderManager.java')
+sourceSets.main.java.exclude('org/mtr/mapping/render/batch/BatchManager.java')
+dependencies { testImplementation 'org.junit.jupiter:junit-jupiter:5.14.4' }
+test { useJUnitPlatform() }
+dependencies { testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.14.4' }
