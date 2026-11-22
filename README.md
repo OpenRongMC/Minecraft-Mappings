@@ -1,31 +1,25 @@
-# Minecraft Mappings (RongMC)
+# Minecraft Mappings（RongMC Transport Compatibility）
 
-[中文](#中文) | [English](#english)
+为 Minecraft Transit Railway 及其附属提供的 **平台适配 / 映射层**（原 Minecraft-Mappings 思路），使交通套件能在目标 Minecraft 版本上编译与运行。
 
-## 中文
+本模组一般由 `rongmc_mtr` jar **内嵌/依赖**，客户端/服务端通常不必单独安装；单独发布便于源码审阅与排错。
 
-本仓库发布的是 **RongMC** 对 `Minecraft Mappings` 的 Minecraft 26.3 Fabric 移植/维护或自研版本。
+---
 
-- Fabric mod id：`rongmc_mapping`（provides：`mapping`）
-- 许可证：**GNU GPL v3.0**
-- 本仓库包含完整源码（orphan 发布，Contributors 仅 ycrrongos）。
-- 部分改动由 vibecoding（AI 辅助编程）完成，并由人工审阅与测试。
-- 贡献者（Contributors）：仅 [ycrrongos](https://github.com/ycrrongos)
+## RongMC · Minecraft 26.3 Fabric 移植说明
 
-### 许可
+本仓库是 RongMC 维护的 **Minecraft 26.3 / Fabric / Java 25** 移植构建，不是上游官方发行渠道。
 
-以 GNU General Public License v3.0 发布（见 `LICENSE`）。若上游原作另有条款，移植改动部分仍按 GPL-3.0；使用时请同时尊重上游要求。
+### 与原版的主要差异
+- 面向 Minecraft 26.3；Fabric id `rongmc_mapping`。
+- 内含渲染矩阵、世界渲染等 mixin/适配代码，供 MTR 套件共用。
 
-## English
+### 已知问题 / 限制
+- 不要与其它冲突的“假映射/重映射”核心同时乱装。
+- 单独加载而无 MTR 时几乎没有可玩内容。
 
-**RongMC** Minecraft 26.3 Fabric port / maintenance / original build of `Minecraft Mappings`.
+### 构建与安装
+- Fabric mod id：`rongmc_mapping`（`provides`：`mapping`，旧依赖名一般仍可解析）
+- Release 产物见本仓库 Releases（jar 名带 `rongmc-` 前缀）
+- 许可证：本仓以 **GPL-3.0** 发布（见 `LICENSE`）；请同时尊重上游原作者条款与署名
 
-- Fabric mod id: `rongmc_mapping` (provides: `mapping`)
-- License: **GNU GPL v3.0**
-- This repository includes full source (orphan publish; contributor: ycrrongos only).
-- Some changes were made with vibecoding (AI-assisted coding), then reviewed and tested by humans.
-- Contributors: only [ycrrongos](https://github.com/ycrrongos)
-
-### License
-
-Released under GNU GPL v3.0 (see `LICENSE`). Respect upstream terms where applicable; RongMC changes are GPL-3.0.
