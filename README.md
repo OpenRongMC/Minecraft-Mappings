@@ -11,7 +11,7 @@
 
 ## 安装
 
-在 [GitHub Releases](https://github.com/OpenRongMC/Minecraft-Mappings/releases/tag/v4.0.5-port.1%2B26.3) 下载 **v4.0.5-port.1+26.3**。使用 Minecraft Java **26.3**、**Fabric** 和 **Java 25**。 依赖 [Fabric API](https://modrinth.com/mod/fabric-api)。 完整 MTR 套件通常已经携带其匹配的适配层。只有所选发布明确要求单独安装时，才额外使用本仓的 JAR。
+在 [GitHub Releases](https://github.com/OpenRongMC/Minecraft-Mappings/releases/tag/v4.0.5-port.1%2B26.3.fix.1) 下载 **v4.0.5-port.1+26.3.fix.1**。使用 Minecraft Java **26.3**、**Fabric** 和 **Java 25**。 依赖 [Fabric API](https://modrinth.com/mod/fabric-api)。 完整 MTR 套件通常已经携带其匹配的适配层。只有所选发布明确要求单独安装时，才额外使用本仓的 JAR。
 
 ## 许可与署名
 

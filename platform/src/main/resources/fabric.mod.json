@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "rongmc_mapping",
-  "version": "4.0.5-port.1+26.3",
+  "version": "4.0.5-port.1+26.3.fix.1",
   "name": "RongMC Transport Compatibility",
   "description": "Shared Minecraft 26.3 platform adapters for MTR and its addons.",
   "license": "GPL-3.0",

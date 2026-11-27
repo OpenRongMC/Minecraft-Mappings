@@ -63,7 +63,7 @@ public final class TransitUi {
     }
 
     static void background(GuiGraphicsExtractor graphics, int width, int height, Palette palette) {
-        graphics.fillGradient(0, 0, width, height, 0xF5101E30, 0xE50C1420);
+        graphics.fillGradient(0, 0, width, height, 0xA4101E30, 0xB80C1420);
         graphics.fill(0, 0, width, 2, palette.accent);
     }
 

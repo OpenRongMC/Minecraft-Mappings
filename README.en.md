@@ -11,7 +11,7 @@ The adapter puts render submission, world and HUD callbacks and SDL input transl
 
 ## Installation
 
-Download **v4.0.5-port.1+26.3** from [GitHub Releases](https://github.com/OpenRongMC/Minecraft-Mappings/releases/tag/v4.0.5-port.1%2B26.3) for Minecraft Java **26.3** on **Fabric** with **Java 25**. Dependencies include [Fabric API](https://modrinth.com/mod/fabric-api). A complete MTR suite normally already includes its matching adapter. Obtain the separate JAR only when the selected release calls for it.
+Download **v4.0.5-port.1+26.3.fix.1** from [GitHub Releases](https://github.com/OpenRongMC/Minecraft-Mappings/releases/tag/v4.0.5-port.1%2B26.3.fix.1) for Minecraft Java **26.3** on **Fabric** with **Java 25**. Dependencies include [Fabric API](https://modrinth.com/mod/fabric-api). A complete MTR suite normally already includes its matching adapter. Obtain the separate JAR only when the selected release calls for it.
 
 ## License and credits
 

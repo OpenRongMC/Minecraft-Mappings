@@ -1,4 +1,5 @@
 // Minecraft 26.3 configuration is shared by the root build.
+version = "4.0.5-port.1+26.3.fix.1"
 sourceSets.main.java.exclude('org/mtr/mapping/mixin/**')
 loom { accessWidenerPath = file('src/main/resources/rongmc-mapping.accesswidener') }
 sourceSets.main.java.exclude('org/mtr/mapping/render/shader/ShaderManager.java')
